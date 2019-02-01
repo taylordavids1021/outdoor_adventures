@@ -1,0 +1,43 @@
+project 2
+
+html, css
+frameworks
+grids
+sass
+
+repo : outdoor-adventures(small caps)
+index.html
+
+brief :
+camping decribes the various a range of activities to outdoor accomodations
+camping can be combined with hiking as in back packing and as offend enjoyed 
+with canoing climbling fishing and hunting.
+when the chaos of city life gets to much gets scared from the city life and the wild and scare=y nights so there are many hiking tracks and nature reserve in western cape that its hard to know where to start.
+
+needed :
+create a website
+homepage
+(jump link/smooth transition) navbar: home, catergories  (fishing ,hiking,canoing,camping,hunting,climbing), gallery, contact
+read more(take you to another page)-activities-western cape
+form structure
+drop down-activites
+gallery-of activities
+
+contact page
+name 
+last name 
+email 
+subject
+message box(comments)
+send submit button
+
+responsive!
+moblie
+tablet
+desktop
+
+*3 pages
+
+strickly to use sass,html
+
+
