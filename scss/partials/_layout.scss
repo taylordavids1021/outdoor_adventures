@@ -1,0 +1,42 @@
+// layout
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+.dropbtn {
+    // background-color: #4CAF50;
+    // color: white;
+    // padding: 16px;
+    font-size: 2rem;;
+    border: none;
+  }
+  
+.dropdown {
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f1f1f160;
+min-width: 120px;
+}
+
+.dropdown-content a {
+color: $secondary-color;
+padding: 5px 5px;
+text-decoration: none;
+display: block;
+border-radius: 20px;
+}
+
+.dropdown-content a:hover {
+    background-color: rgba(221, 221, 221, 0.74);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    border-radius: 20px;
+}
+
