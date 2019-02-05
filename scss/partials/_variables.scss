@@ -2,13 +2,15 @@
 
 // global colours
 
-$primary-color: rgb(168, 153, 21);
+$primary-color: #4D9078;
 $secondary-color: rgba(0, 0, 0, 0.815);
-$bgcolor: linear-gradient(brown,yellow,orange);
-$bgcolor2: seagreen;
+$bgcolor: linear-gradient(rgba(95, 173, 86, 0.459),rgba(242, 193, 78, 0.664),rgba(247, 130, 84, 0.575));
+$bgcolor2: rgba(247, 130, 84, 0.699);
+$bgcolor3: rgba(221, 221, 221, 0.74);
+$bgcolor4: linear-gradient(rgb(80, 114, 85),rgb(247, 129, 84), 129, 84),rgb(197, 224, 99);
 
 // text colors
-$headings: rgb(36, 128, 0);
+$headings: #F2C14E;
 $links: orange;
-$text: rgba(255, 0, 0, 0.753);
-$color-shadow: pink;
+$text: #4D9078;
+$text2:#84C318;
