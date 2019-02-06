@@ -1,19 +1,30 @@
 
 p {
     font-size: 2rem;
-    font-family: 'Francois One', sans-serif;
+    font-family: 'Merienda', cursive;
     color: $text;
     text-align: center;
 }
 
 main {
-    background-image: url(../images/wallpaper.jpg);
-    background-size: 100% 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.575), rgba(128, 128, 128, 0.445)), url(../images/action-adult-adventure-701016.jpg);
+    background-size: 100% 100% ;
     height: 100vh;
     background-attachment: fixed;
 }
 
 .header {
-    padding-top: 15rem;
+    padding-top: 10rem;
+    padding-left: 2%;
 }
 
+.arrow {
+    width: 100px;
+    height: 100px;
+    padding-left: 870px;
+    padding-bottom: 200px;
+}
+
+#activity {
+    color: $text;
+}

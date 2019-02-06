@@ -5,24 +5,22 @@ html {
 body {
     margin: 0;
     padding: 0;
+    background-color: $bgcolor;
 }
 
 .body2 {
     margin: 0;
     padding: 0;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 // nav bar
 nav {
-    font-size: 2rem;
+    font-size: 4rem;
     word-spacing: 2rem;
 }
 nav li:hover {
-    background-color: $primary-color;
-    background-color: rgba(255, 255, 255, 0.445);
     border-radius: 5rem;
+    background-color: rgba(255, 99, 71, 0.74);
 }
 
 ul {
@@ -31,39 +29,31 @@ ul {
 }
 
 li {
+    font-family: 'Poiret One', cursive;
     display: inline;
-    color: $text2;
+    color: $text;
     padding: 1rem;
     text-align: center;
-    font-size: 2rem;
+    font-size: 4srem;
 }
 
 a {
     margin-bottom: 5rem;
-    color: $text2;
+    color: $text;
     text-decoration: none;
     margin-right: 2rem;
 }
 
 h2 {
     font-size: 2rem;
-    font-family: 'Poiret One', cursive;
     text-align: center;
 }
 
 h1 {
-    // font-family: 'Poiret One', cursive;
-    font-family: 'Yeseva One', cursive;
+    font-family: 'Poiret One', cursive;
     text-align: center;
-    margin-bottom: 60px;
-    font-size: 5rem;
-    color: orangered;
+    font-size: 6rem;
+    color: rgba(236, 75, 12, 0.753);
     font-weight: bolder;
-}
-
-.arrow {
-    width: 100px;
-    height: 100px;
-    padding-left: 870px;
-    padding-bottom: 300px;
+    
 }
