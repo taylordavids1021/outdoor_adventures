@@ -5,7 +5,465 @@
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
+//   responsive for index.html
+// background of navbar
+main {
+    background: linear-gradient(rgba(0, 0, 0, 0.575), rgba(128, 128, 128, 0.445)), url(../images/action-adult-adventure-701016.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+// nav bar
+.dropbtn {
+    font-size: 1rem;
+    border: none;
+    font-weight: bold;
+    
+}
+nav {
+    font-size: 1rem;
+}
 
+li,
+a {
+    font-family: 'Poiret One', cursive;
+    margin-bottom: 5rem;
+    color: $text;
+    text-decoration: none;
+    margin-right: 0.5rem;
+    display: inline;
+    font-weight: bolder;
+}
+
+// heading style
+h2 {
+    font-size: 1rem;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Poiret One', cursive;
+    text-align: right;
+    font-size: 2rem;
+    color: rgba(236, 75, 12, 0.753);
+    font-weight: bolder;
+    margin-right: 0.8rem;
+}
+// paragraph
+p {
+    font-size: 0.7rem;
+    font-family: 'Playfair Display', serif;
+    color: $text;
+    text-align: center;
+}
+// first header of homepage
+.header {
+    padding-top: 13rem;
+}
+// arrow image
+.arrow {
+    width: 1rem;
+}
+.arrow-2 {
+    width: 4rem;
+    margin-left: 2rem; 
+}
+// heading style for contact page
+.title-2 {
+    color: white;
+    background-color: rgba(128, 128, 128, 0.671);
+    box-shadow: 2px 2px 2px rgba(128, 128, 128, 0.562),
+                -2px -2px 2px;
+    font-family: 'Poiret One', cursive;
+    font-size: 2rem;
+    padding: 0;
+    margin: 2rem 20rem;
+}
+// homepage activities grid
+.camp {
+    display: grid;
+    padding: 1rem;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "title"
+    "img-1"
+    "box-1"
+    "img-2"
+    "box-2";
+}
+
+.title {
+    grid-area: title;
+}
+.img-1 {
+    grid-area: img-1;
+    height: 10rem;
+    background-image: url(../images/camping1.jpg);
+    background-size: 100% 100%;
+}
+.box-1 {
+    grid-area: box-1;
+    align-self: right;
+    padding: 2rem;
+}
+
+.box-2 {
+    padding: 2rem;
+    grid-area: box-2;
+    align-self: left;
+}
+
+.img-2 {
+    grid-area: img-2;
+    height: 20rem;
+    background-image: url(../images/camp-04-a.jpg);
+    background-size: 100% 100%;
+}
+
+.fishing {
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "title"
+    "img-3"
+    "box-1"
+    "img-4"
+    "box-2";
+}
+.img-3 {
+    grid-area: img-3;
+    height: 10rem;
+    background-image: url(../images/fishing3.jpg);
+    background-size: 100% 100%;
+}
+.img-4 {
+    grid-area: img-4;
+    height: 10rem;
+    background-image: url(../images/Wanaka-Fly-Fishing.jpg);
+    background-size: 100% 100%;
+}
+
+.hiking {
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "title"
+    "img-5"
+    "box-1"
+    "img-6"
+    "box-2";
+}
+
+.img-5 {
+    grid-area: img-5;
+    height: 10rem;
+    background-image: url(../images/hiking1.jpg);
+    background-size: 100% 100%;
+}
+.img-6 {
+    grid-area: img-6;
+    height: 10rem;
+    background-image: url(../images/Hikings.jpg);
+    background-size: 100% 100%;
+}
+
+.climbing {
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "title"
+    "img-7"
+    "box-1"
+    "img-8"
+    "box-2";
+}
+
+.img-7 {
+    grid-area: img-7;
+    height: 10rem;
+    background-image: url(../images/climbing3.png);
+    background-size: 100% 100%;
+}
+.img-8 {
+    grid-area: img-8;
+    height: 15rem;
+    background-image: url(../images/climbings.jpg);
+    background-size: 100% 100%;
+}
+
+.hunt {
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "title"
+    "img-9"
+    "box-1"
+    "img-10"
+    "box-2";
+}
+
+.img-9 {
+    grid-area: img-9;
+    height: 10rem;
+    background-image: url(../images/hunt.jpg);
+    background-size: 100% 100%;
+}
+.img-10 {
+    grid-area: img-10;
+    height: 20rem;
+    background-image: url(../images/hunts.jpg);
+    background-size: 100% 100%;
+}
+.canoing {
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "title"
+    "img-11"
+    "box-1"
+    "img-12"
+    "box-2";
+}
+
+.img-11 {
+    grid-area: img-11;
+    height: 10rem;
+    background-image: url(../images/canoe-adventure.jpg);
+    background-size: 100% 100%;
+}
+.img-12 {
+    grid-area: img-12;
+    height: 10rem;
+    background-image: url(../images/kaskazi-kayaks.jpg);
+    background-size: 100% 100%;
+}
+.arrow-2 {
+    width: 2rem;
+    margin-left: 1rem; 
+}
+// button
+button {
+    border-radius: 5px 5px 5px;
+    background-color: $text;
+    font-size: 0.7rem;
+    font-weight: bold;
+    font-family: 'Poiret One', cursive;
+    color: black;
+    padding: 0.2rem;
+}
+
+// hover over button
+button:hover {
+    color: black;
+    border-radius: 10px;
+    padding: 0.1rem 0;
+    margin-left: 1rem;
+    text-shadow: 0 0 10px $text3,
+                 0 0 20px $text3,
+                 0 0 30px $text3,
+                 0 0 40px $text3;
+}
+// end of button style
+
+// responsive for gallery.html
+// navbar jumplink style to go back to home page
+.arrow-2 {
+    width: 1rem; 
+    margin-top: 0.5rem;
+}
+.home {
+    font-size: 0.9rem;
+    padding: 0 0.5rem;
+    margin: 0;
+}
+// layout
+.gallery img {
+    height: auto;
+    width: 100%;
+}
+
+.fish,
+.hike,
+.canoe,
+.camping,
+.hunting,
+.climb,
+.adven,
+.outdoor {
+    display: grid;
+    grid-gap: 7px;
+    overflow-x: hidden;
+    padding: 5px;
+    background-size: cover;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+// end of gallery
+// footer style
+
+.title-3 {
+    font-size: 1.3rem;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.671);
+}
+// responsive contact details
+.home-3 {
+    color: $text2;
+    font-size: 1.6rem;
+    padding: 1rem;
+}
+// contact wrapper
+.wrapper2 h1 {
+    font-weight: bolder;
+    font-size: 2rem;
+    text-align: left;
+    font-family: 'Poiret One', cursive;
+}
+// contact body
+.body3 {
+    background-image: url(../images/adventure-beauty-blonde-hair-725255.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+// heading style for contact page
+.title-2 {
+    color: white;
+    background-color: rgba(128, 128, 128, 0.671);
+    box-shadow: 2px 2px 2px rgba(128, 128, 128, 0.562),
+                -2px -2px 2px;
+    font-family: 'Poiret One', cursive;
+    font-size: 1rem;
+    padding: 0;
+    margin: 1rem 0;
+    width: 100%;    
+}
+.title-3 {
+    font-size: 1rem;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.671);
+    width: 100%
+}
+// heading style
+h2 {
+    padding: 2rem 0;
+    font-size: 0.5rem;
+}
+.foot {
+    width: 100%;
+}
+// form 
+form {
+    font-family: 'Poiret One', cursive;
+    margin-top: 2rem;
+    width: 400px;
+    padding: 0;
+    margin-left: 3px;
+
+    input {
+        padding: 0.2rem 0;
+    }
+
+    .comment {
+        padding: 1rem;
+    }
+}
+#name {
+    margin-right: 2rem;
+    width: 5.8rem;
+}
+#surname {
+    // margin-left: 6rem;
+    width: 7rem;
+}
+.form-2 {
+    font-family: 'Poiret One', cursive;
+    color: black;
+    margin-right: 10rem;
+    font-size: 1rem;
+    font-weight: bold;
+    word-spacing: 7rem;
+
+}
+.form-3 {
+    font-family: 'Poiret One', cursive;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 2px 0;
+    margin-right: 1rem;
+}
+#surname {
+    // margin: 2rem;
+}
+#email {
+    margin-left: 6rem;
+}
+#comment {
+    margin-left: 6rem;
+}
+
+// subcribe button
+.sub {
+    border-radius: 2px 2px 2px;
+    background-color: $text;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Poiret One', cursive;
+    color: black;
+    padding: 0.3rem;
+    margin-left: 6rem;
+}
+.sub:hover {
+    color: black;
+    border-radius: 10px;
+    padding: 0.3rem 0;
+    margin-left: 10rem;
+    text-shadow: 0 0 5px $text3,
+                 0 0 10px $text3,
+                 0 0 20px $text3,
+                 0 0 30px $text3;
+}
+.dropbtn-2 {
+    color: black;
+    font-size: 1rem;
+    // border: none;
+    font-weight: bold;
+    margin-left: 0.6rem;
+    margin-top: 0.6rem;
+}
+.dropdown-content-2 a {
+    color: $secondary-color;
+    text-decoration: none;
+    display: block;
+    margin: 0 0.3rem;
+    padding: 0.6rem;
+}
+input,
+#comment {
+    background-color: rgba(117, 117, 117, 0.205);
+    border: none;
+    border-bottom: 2px solid white;
+}
+// end of form
+// active style on nvabar
+.active,
+#active {
+    background-color: rgba(236, 75, 12, 0.541);
+    padding: 2px;
+    // border-radius: 1rem;
+}
+#active-2 {
+    background-color: rgba(128, 128, 128, 0.863);
+    padding: 2px;
+    border-radius: 1rem;
+}
 }
 
 // responsive for tablet device
@@ -13,5 +471,457 @@
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) {
+// heading style
+h2 {
+    font-size: 2rem;
+    text-align: center;
+}
 
-  }
+h1 {
+    font-family: 'Poiret One', cursive;
+    text-align: right;
+    font-size: 3.9rem;
+    color: rgba(236, 75, 12, 0.753);
+    font-weight: bolder;
+}
+// paragraph
+p {
+    font-size: 1rem;
+    font-family: 'Playfair Display', serif;
+    color: $text;
+    text-align: center;
+}
+// first header of homepage
+.header {
+    padding-top: 0;
+}
+// arrow image
+.arrow {
+    width: 40%;
+}
+.arrow-2 {
+    width: 4rem;
+    margin-left: 2rem; 
+}
+.dropdown {
+    font-family: 'Poiret One', cursive;
+    color: $text;
+    padding: 1rem;
+    font-size: 0.5rem;
+    font-weight: bolder;
+}
+
+.dropbtn {
+    font-size: 2rem;
+    border: none;
+    font-weight: bold;
+    
+}
+// heading style for contact page
+.title-2 {
+    color: white;
+    background-color: rgba(128, 128, 128, 0.671);
+    box-shadow: 2px 2px 2px rgba(128, 128, 128, 0.562),
+                -2px -2px 2px;
+    font-family: 'Poiret One', cursive;
+    font-size: 2rem;
+    padding: 0;
+    margin: 2rem 20rem;
+}
+.box-1 {
+    grid-area: box-1;
+    align-self: center;
+    padding: 2rem;
+}
+
+.box-2 {
+    padding: 2rem;
+    grid-area: box-2;
+    align-self: center;
+}
+// homepage activities grid
+.camp {
+    display: grid;
+    padding: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+    "title title"
+    "img-1 box-1"
+    "box-2 img-2";
+}
+
+.title {
+    grid-area: title;
+}
+.img-1 {
+    grid-area: img-1;
+    height: 20rem;
+    background-image: url(../images/camping1.jpg);
+    background-size: 100% 100%;
+}
+.box-1 {
+    grid-area: box-1;
+    align-self: right;
+    padding: 2rem;
+}
+
+.box-2 {
+    padding: 2rem;
+    grid-area: box-2;
+    align-self: left;
+}
+
+.img-2 {
+    grid-area: img-2;
+    height: 15rem;
+    background-image: url(../images/camp-04-a.jpg);
+    background-size: 100% 100%;
+}
+
+.fishing {
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+    "title title"
+    "img-3 box-1"
+    "box-2 img-4";
+}
+.img-3 {
+    grid-area: img-3;
+    height: 20rem;
+    background-image: url(../images/fishing3.jpg);
+    background-size: 100% 100%;
+}
+.img-4 {
+    grid-area: img-4;
+    height: 20rem;
+    background-image: url(../images/Wanaka-Fly-Fishing.jpg);
+    background-size: 100% 100%;
+}
+
+.hiking {
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+    "title title"
+    "img-5 box-1"
+    "box-2 img-6";
+}
+
+.img-5 {
+    grid-area: img-5;
+    height: 20rem;
+    background-image: url(../images/hiking1.jpg);
+    background-size: 100% 100%;
+}
+.img-6 {
+    grid-area: img-6;
+    height: 20rem;
+    background-image: url(../images/Hikings.jpg);
+    background-size: 100% 100%;
+}
+
+.climbing {
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+    "title title"
+    "img-7 box-1"
+    "box-2 img-8";
+}
+
+.img-7 {
+    grid-area: img-7;
+    height: 20rem;
+    background-image: url(../images/climbing3.png);
+    background-size: 100% 100%;
+}
+.img-8 {
+    grid-area: img-8;
+    height: 15rem;
+    background-image: url(../images/climbings.jpg);
+    background-size: 100% 100%;
+}
+
+.hunt {
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+    "title title"
+    "img-9 box-1"
+    "box-2 img-10";
+}
+
+.img-9 {
+    grid-area: img-9;
+    height: 20rem;
+    background-image: url(../images/hunt.jpg);
+    background-size: 100% 100%;
+}
+.img-10 {
+    grid-area: img-10;
+    height: 25rem;
+    background-image: url(../images/hunts.jpg);
+    background-size: 100% 100%;
+}
+.canoing {
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+    "title title"
+    "img-11 box-1"
+    "box-2 img-12";
+}
+
+.img-11 {
+    grid-area: img-11;
+    height: 20rem;
+    background-image: url(../images/canoe-adventure.jpg);
+    background-size: 100% 100%;
+}
+.img-12 {
+    grid-area: img-12;
+    height: 20rem;
+    background-image: url(../images/kaskazi-kayaks.jpg);
+    background-size: 100% 100%;
+}
+.arrow-2 {
+    width: 2rem;
+    margin-left: 1rem; 
+}
+// button
+button {
+    border-radius: 5px 5px 5px;
+    background-color: $text;
+    font-size: 0.7rem;
+    font-weight: bold;
+    font-family: 'Poiret One', cursive;
+    color: black;
+    padding: 0.2rem;
+}
+
+// hover over button
+button:hover {
+    color: black;
+    border-radius: 10px;
+    padding: 0.1rem 0;
+    margin-left: 1rem;
+    text-shadow: 0 0 10px $text3,
+                 0 0 20px $text3,
+                 0 0 30px $text3,
+                 0 0 40px $text3;
+}
+// end of button style
+.arrow-2 {
+    width: 3rem;
+    margin-left: 2rem; 
+}
+// responsive for gallery.html
+// navbar jumplink style to go back to home page
+.arrow-2 {
+    width: 2.8rem; 
+    margin-top: 0.5rem;
+}
+.home {
+    font-size: 2rem;
+    padding: 0 0.5rem;
+    margin: 0;
+}
+// layout
+.gallery img {
+    height: auto;
+    width: 100%;
+}
+.home:hover {
+    color: $text3;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-left: 2rem;
+    text-shadow: 0 0 10px $text3,
+                 0 0 20px $text3,
+                 0 0 30px $text3,
+                 0 0 40px $text3;
+}
+
+.fish,
+.hike,
+.canoe,
+.camping,
+.hunting,
+.climb,
+.adven,
+.outdoor {
+    display: grid;
+    grid-gap: 3px;
+    overflow-x: hidden;
+    padding: 4px;
+    background-size: cover;
+    grid-template-columns:repeat(2, 1fr);
+    grid-template-rows: auto;
+}
+// end of gallery
+
+// footer style
+
+.title-3 {
+    font-size: 2rem;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.671);
+}
+// responsive contact details
+.home-3 {
+    color: $text2;
+    font-size: 1.8rem;
+    padding: 2rem;
+}
+// contact wrapper
+.wrapper2 h1 {
+    font-weight: bolder;
+    font-size: 2rem;
+    text-align: left;
+    font-family: 'Poiret One', cursive;
+}
+// contact body
+.body3 {
+    background-image: url(../images/adventure-beauty-blonde-hair-725255.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+// heading style for contact page
+.title-2 {
+    color: white;
+    background-color: rgba(128, 128, 128, 0.671);
+    box-shadow: 3px 3px 3px rgba(128, 128, 128, 0.562),
+                -3px -3px 3px;
+    font-family: 'Poiret One', cursive;
+    font-size: 1.5rem;
+    padding: 0 5rem;
+    text-align: center;
+    margin: 1rem 3rem;
+    width: 100%;    
+}
+.title-3 {
+    font-size: 1rem;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.671);
+    padding: 0 11rem;
+    width: 100%;
+
+}
+// heading style
+h2 {
+    padding: 2rem 0;
+    font-size: 0.5rem;
+}
+
+// form 
+form {
+    font-family: 'Poiret One', cursive;
+    margin-top: 2rem;
+    width: 400px;
+    padding: 0 2rem;;
+    margin-left: 5px;
+
+    input {
+        padding: 0.2rem 0;
+    }
+
+    .comment {
+        padding: 1rem;
+    }
+}
+#name {
+    margin-right: 2rem;
+    width: 7rem;
+}
+#surname {
+    margin-left: 6rem;
+    width: 9rem;
+}
+input,
+#comment {
+    background-color: rgba(117, 117, 117, 0.205);
+    border: none;
+    border-bottom: 2px solid white;
+}
+
+.form-2 {
+    font-family: 'Poiret One', cursive;
+    color: black;
+    margin-right: 20rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    word-spacing: 10rem;
+    width: 23rem;
+}
+.form-3 {
+    font-family: 'Poiret One', cursive;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 2px 0;
+    margin-right: 6rem;
+}
+
+#email {
+    margin-left: 6rem;
+}
+#comment {
+    margin-left: 6rem;
+}
+
+// subcribe button
+.sub {
+    border-radius: 2px 2px 2px;
+    background-color: $text;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Poiret One', cursive;
+    color: black;
+    padding: 0.3rem;
+    margin-left: 6rem;
+}
+.sub:hover {
+    color: black;
+    border-radius: 10px;
+    padding: 0.3rem 0;
+    margin-left: 10rem;
+    text-shadow: 0 0 5px $text3,
+                 0 0 10px $text3,
+                 0 0 20px $text3,
+                 0 0 30px $text3;
+}
+.dropbtn-2 {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 0.3rem;
+    margin-top: 2rem;
+}
+.dropdown-content-2 a {
+    color: $secondary-color;
+    text-decoration: none;
+    display: block;
+    padding: 1rem 0.6rem;
+}
+// end of form
+// active style on nvabar
+.active,
+#active {
+    background-color: rgba(236, 75, 12, 0.541);
+    padding: 2px;
+    // border-radius: 1rem;
+}
+#active-2 {
+    background-color: rgba(128, 128, 128, 0.863);
+    padding: 2px;
+    border-radius: 1rem;
+}
+}

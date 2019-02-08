@@ -40,7 +40,6 @@ p {
 // contact body
 .body3 {
     background-image: url(../images/adventure-beauty-blonde-hair-725255.jpg);
-    // height: 100vh;
     background-size: cover;
 }
 
@@ -172,7 +171,13 @@ form {
 #comment {
     margin-left: 13.2rem;
 }
-
+// input
+input,
+#comment {
+    background-color: rgba(117, 117, 117, 0.205);
+    border: none;
+    border-bottom: 2px solid white;
+}
 // subcribe button
 .sub {
     border-radius: 5px 5px 5px;
