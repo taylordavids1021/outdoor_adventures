@@ -32,6 +32,13 @@ message box(comments)
 send submit button
 
 responsive!
+
+***text style-diffnt font - size
+heading smaller
+add more places- left picture-right picture
+arrow centered
+readmore button - at the bottom****
+
 moblie
 tablet
 desktop

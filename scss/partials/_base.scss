@@ -7,26 +7,52 @@ body {
     padding: 0;
 }
 
+// homepage wrapper
+.wrapper {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+// contact wrapper
+.wrapper2 h1 {
+    font-weight: bolder;
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+}
+
+// paragraph
 p {
-    font-size: 2rem;
-    font-family: 'Merienda', cursive;
+    font-size: 1.800rem;
+    font-family: 'Playfair Display', serif;
     color: $text;
     text-align: center;
 }
 
-.body2 {
+// gallery body
+.body2 h1 {
     margin: 0;
     padding: 0;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+}
+
+// contact body
+.body3 {
+    background-image: url(../images/adventure-beauty-blonde-hair-725255.jpg);
+    // height: 100vh;
+    background-size: cover;
 }
 
 // nav bar
 nav {
-    font-size: 4rem;
-    word-spacing: 2rem;
+    font-size: 2rem;
 }
-nav li:hover {
-    border-radius: 5rem;
-    background-color: rgba(255, 99, 71, 0.74);
+li:hover {
+    text-shadow: 0 0 10px $text3,
+                 0 0 20px $text3,
+                 0 0 30px $text3,
+                 0 0 40px $text3;
 }
 
 ul {
@@ -34,22 +60,27 @@ ul {
     padding: 1rem;
 }
 
-li {
-    font-family: 'Poiret One', cursive;
-    display: inline;
-    color: $text;
-    padding: 1rem;
-    text-align: center;
-    font-size: 4srem;
-}
-
+li,
 a {
+    font-family: 'Poiret One', cursive;
     margin-bottom: 5rem;
     color: $text;
     text-decoration: none;
     margin-right: 2rem;
+    display: inline;
+    font-weight: bolder;
 }
 
+// background of navbar
+main {
+    background: linear-gradient(rgba(0, 0, 0, 0.575), rgba(128, 128, 128, 0.445)), url(../images/action-adult-adventure-701016.jpg);
+    background-size: 100% 100% ;
+    height: 100vh;
+    background-attachment: fixed;
+}
+// end of navbar
+
+// heading style
 h2 {
     font-size: 2rem;
     text-align: center;
@@ -57,22 +88,122 @@ h2 {
 
 h1 {
     font-family: 'Poiret One', cursive;
-    text-align: center;
-    font-size: 6rem;
+    text-align: right;
+    font-size: 5.3rem;
     color: rgba(236, 75, 12, 0.753);
     font-weight: bolder;
-    
+    margin-right: 0.8rem;
 }
 
-main {
-    background: linear-gradient(rgba(0, 0, 0, 0.575), rgba(128, 128, 128, 0.445)), url(../images/action-adult-adventure-701016.jpg);
-    background-size: 100% 100% ;
-    height: 100vh;
-    background-attachment: fixed;
+// section
+section h1 {
+    margin: 1%;
+    font-size: 2rem;
+    padding: 1%;
+    text-align: center;
 }
+section a {
+    color: black;
+}
+
 // button
 button {
     border-radius: 5px 5px 5px;
-    background-color: $headings;
+    background-color: $text;
     font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Poiret One', cursive;
+    color: black;
+    padding: 0.3rem;
 }
+
+// hover over button
+button:hover {
+    color: black;
+    border-radius: 20px;
+    padding: 0.3rem 1rem;
+    margin-left: 2rem;
+    text-shadow: 0 0 10px $text3,
+                 0 0 20px $text3,
+                 0 0 30px $text3,
+                 0 0 40px $text3;
+}
+// end of button style
+
+// form 
+form {
+    font-family: 'Poiret One', cursive;
+    margin-top: 2.8rem;
+    margin-left: 20rem;
+
+    input {
+        padding: 0.3rem 0;
+    }
+
+    .comment {
+        padding: 3rem;
+    }
+}
+.form-2 {
+    font-family: 'Poiret One', cursive;
+    color: black;
+    margin-right: 80rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    word-spacing: 8rem;
+
+}
+.form-3 {
+    font-family: 'Poiret One', cursive;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 2px 0;
+    margin-right: 50rem;
+    align-self: left;
+}
+#surname {
+    margin-left: 2.2rem;
+}
+#email {
+    margin-left: 13.2rem;
+}
+#comment {
+    margin-left: 13.2rem;
+}
+
+// subcribe button
+.sub {
+    border-radius: 5px 5px 5px;
+    background-color: $text;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Poiret One', cursive;
+    color: black;
+    padding: 0.3rem;
+    margin-left: 13.2rem;
+}
+.sub:hover {
+    color: black;
+    border-radius: 20px;
+    padding: 0.3rem 1rem;
+    margin-left: 13.5rem;
+    text-shadow: 0 0 10px $text3,
+                 0 0 20px $text3,
+                 0 0 30px $text3,
+                 0 0 40px $text3;
+}
+// end of form
+
+// footer style
+.foot {
+    color: white;
+    background-color: rgba(128, 128, 128, 0.671);
+    box-shadow: 3px 3px 3px rgba(128, 128, 128, 0.562),
+                5px 5px 5px;
+    font-family: 'Poiret One', cursive;
+    font-size: 2.7rem;
+    margin-top: 2rem;
+}
+// end of style

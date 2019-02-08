@@ -1,75 +1,240 @@
+// global components
 
-
+// first header of homepage
 .header {
     padding-top: 10rem;
-    padding-left: 2%;
 }
 
+// arrow image
 .arrow {
     width: 100px;
     height: 100px;
-    padding-left: 870px;
-    padding-top: 8rem;
+    padding-left: 50.5rem;
+    padding-top: 9rem;
 }
+.arrow-2 {
+    width: 4rem;
+    margin-left: 2rem; 
 
+}
+// dropdown element
 #activity {
     color: $text;
 }
 
+.dropdown {
+    font-family: 'Poiret One', cursive;
+    color: $text;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
 .dropbtn {
-    font-size: 4rem;
+    font-size: 2rem;
     border: none;
+    font-weight: bold;
     
 }
   
 .dropdown {
     display: inline-block;
+    padding: 0;
 }
 
 .dropdown-content {
-    padding: 1rem 1rem;
     display: none;
     position: absolute;
-    background-color: rgba(255, 255, 255, 0.808);
-    margin-top: 1rem;
+    background-color: rgb(255, 255, 255);
 }
 
 .dropdown-content a {
     color: $secondary-color;
-    padding: 5px 5px;
     text-decoration: none;
     display: block;
-    // border-radius: 20px;
-    margin: 20px 0 0 0;
-    padding: 0;
+    margin: 0;
+    padding: 1rem;
 }
 
+// hover over dropdown
 .dropdown-content a:hover {
-    background-color: rgba(255, 99, 71, 0.747);
-    border-radius: 20px;
+    background-color: rgba(236, 75, 12, 0.753);
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
-    border-radius: 20px;
 }
 
-// hoomepage button
+// dropdown 2
+.dropdown-2 {
+    font-family: 'Poiret One', cursive;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.dropbtn-2 {
+    color: black;
+    font-size: 1.5rem;
+    border: none;
+    font-weight: bold;
+    margin-left: 0.4rem;
+    margin-top: 1rem;
+}
+  
+.dropdown-2 {
+    display: inline-block;
+    padding: 0;
+}
+
+.dropdown-content-2 {
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+}
+
+.dropdown-content-2 a {
+    color: $secondary-color;
+    text-decoration: none;
+    display: block;
+    margin: 0;
+    padding: 1rem;
+}
+// hover over dropdown
+.dropdown-content-2 a:hover {
+    background-color: rgba(128, 128, 128, 0.671);
+}
+
+.dropdown-2:hover .dropdown-content-2 {
+    // contact button
+    display: block;
+}
+// end of dropdown
+
+// navbar jumplink style to go back to home page
 .home {
     font-size: 3rem;
-    margin-left: 50rem;
+    margin-left: 2rem;
+    padding: 1rem;
 }
 .home:hover {
-    background-color: rgba(230, 94, 70, 0.781);
+    color: $text3;
     border-radius: 20px;
     padding: 1rem;
-    margin-left: 50rem;
+    margin-left: 3rem;
+    text-shadow: 0 0 10px $text3,
+                 0 0 20px $text3,
+                 0 0 30px $text3,
+                 0 0 40px $text3;
 }
 
+// heading style for contact page
+.title-2 {
+    color: white;
+    background-color: rgba(128, 128, 128, 0.671);
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.562),
+                -5px -5px 5px;
+    font-family: 'Poiret One', cursive;
+    font-size: 2.7rem;
+    padding: 0;
+    margin: 2rem 20rem;
+}
+
+.title-3 {
+    font-size: 2rem;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.671);
+}
+.home-3 {
+    color: $text2;
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.home-2:hover {
+    color: $text2;
+    border-radius: 20px;
+    padding: 1rem;
+    margin-left: 3rem;
+    text-shadow: 0 0 10px $text3,
+                 0 0 20px $text3,
+                 0 0 30px $text3,
+                 0 0 40px $text3;
+}
+// end of style
+
+// gallery effect
 .pic1:hover,
 .pic2:hover,
-.pic3:hover {
-    height: 33rem;
-    width: 43rem;
+.pic3:hover,
+.pic4:hover,
+.pic5:hover,
+.pic6:hover,
+.pic7:hover,
+.pic8:hover,
+.pic9:hover,
+.pic10:hover,
+.pic11:hover,
+.pic12:hover,
+.pic13:hover,
+.pic14:hover,
+.pic15:hover,
+.pic16:hover,
+.pic17:hover,
+.pic18:hover,
+.pic19:hover,
+.pic20:hover,
+.pic21:hover,
+.pic22:hover,
+.pic23:hover,
+.pic24:hover {
+    height: 31rem;
+    width: auto;
     transition: 1s ease-in-out;
 }
+.pic1,
+.pic2,
+.pic3,
+.pic4,
+.pic5,
+.pic6,
+.pic7,
+.pic8,
+.pic9,
+.pic10,
+.pic11,
+.pic12,
+.pic13,
+.pic14,
+.pic15,
+.pic16,
+.pic17,
+.pic18,
+.pic19,
+.pic20,
+.pic21,
+.pic22,
+.pic23,
+.pic24 {
+    transition: 1s ease-in-out;
+}
+// end of style
+
+// active style on nvabar
+.active,
+#active {
+    background-color: rgba(236, 75, 12, 0.541);
+    padding: 3px;
+    border-radius: 1rem;
+}
+#active-2 {
+    background-color: rgba(128, 128, 128, 0.863);
+    padding: 3px;
+    border-radius: 1rem;
+}
+.active:hover,
+#active:hover,
+#active-2:hover {
+    opacity: 0;
+}
+// end of style
