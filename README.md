@@ -20,6 +20,7 @@ HTML is a ....
 
 - HTML
 - CSS
+- SASS
 
 
 ### Other Technologies Used
@@ -28,8 +29,8 @@ Technologies and Tools Used:
 
 ```Languages:
 
-- CSS
 - SASS
+- CSS
 - HTML```
 
 ```Tools:
