@@ -1,5 +1,31 @@
 // global components
+// gallery body
+.body2 h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+}
 
+// contact body
+.body3 {
+    background-image: url(../images/adventure-beauty-blonde-hair-725255.jpg);
+    background-size: cover;
+}
+
+// homepage wrapper
+.wrapper {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+// contact wrapper
+.wrapper2 h1 {
+    font-weight: bolder;
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+}
 // first header of homepage
 .header {
     padding-top: 10rem;
@@ -9,9 +35,31 @@
 .arrow {
     width: 100px;
     height: 100px;
-    padding-left: 50.5rem;
-    padding-top: 9rem;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    animation: move 2s ease infinite;
 }
+@keyframes move {
+    0% {
+        margin-top: 4rem;
+    }
+    50% {
+        margin-top: 0;
+    }
+    100% {
+        margin-top: 4rem;
+    }
+}
+li:hover,
+.dropbtn:hover,
+.home-3:hover {
+    text-shadow: 0 0 10px $text3,
+                 0 0 20px $text3,
+                 0 0 30px $text3,
+                 0 0 40px $text3;
+}
+
 .arrow-2 {
     width: 4rem;
     margin-left: 2rem; 
@@ -34,7 +82,6 @@
     font-size: 2rem;
     border: none;
     font-weight: bold;
-    
 }
   
 .dropdown {
@@ -69,7 +116,7 @@
 .dropdown-2 {
     font-family: 'Poiret One', cursive;
     padding: 1rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
@@ -78,38 +125,13 @@
     font-size: 1.5rem;
     border: none;
     font-weight: bold;
-    margin-left: 0.4rem;
     margin-top: 1rem;
 }
   
 .dropdown-2 {
     display: inline-block;
-    padding: 0;
+    padding: 1;
 }
-
-.dropdown-content-2 {
-    display: none;
-    position: absolute;
-    background-color: rgb(255, 255, 255);
-}
-
-.dropdown-content-2 a {
-    color: $secondary-color;
-    text-decoration: none;
-    display: block;
-    margin: 0;
-    padding: 1rem;
-}
-// hover over dropdown
-.dropdown-content-2 a:hover {
-    background-color: rgba(128, 128, 128, 0.671);
-}
-
-.dropdown-2:hover .dropdown-content-2 {
-    // contact button
-    display: block;
-}
-// end of dropdown
 
 // navbar jumplink style to go back to home page
 .home {
@@ -143,10 +165,10 @@
 .title-3 {
     font-size: 2rem;
     color: white;
-    background-color: rgba(128, 128, 128, 0.671);
+    background-color: rgba(71, 71, 71, 0.315);
 }
 .home-3 {
-    color: $text2;
+    color: rgb(51, 50, 50);
     font-size: 2rem;
     padding: 2rem;
 }
@@ -224,7 +246,7 @@
 .active,
 #active {
     background-color: rgba(236, 75, 12, 0.541);
-    padding: 3px;
+    padding: 6px;
     border-radius: 1rem;
 }
 #active-2 {
@@ -236,5 +258,74 @@
 #active:hover,
 #active-2:hover {
     opacity: 0;
+}
+// end of style
+.form-2 {
+    font-family: 'Poiret One', cursive;
+    color: black;
+    margin-right: 80rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    word-spacing: 8rem;
+
+}
+.form-3 {
+    font-family: 'Poiret One', cursive;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 2px 0;
+    margin-right: 50rem;
+    align-self: left;
+}
+#surname {
+    margin-left: 2.2rem;
+}
+#email {
+    margin-left: 13.2rem;
+}
+#comment {
+    margin-left: 13.2rem;
+}
+// input
+input,
+#comment {
+    background-color: rgba(117, 117, 117, 0.205);
+    border: none;
+    border-bottom: 2px solid white;
+}
+// subcribe button
+.sub {
+    border-radius: 5px 5px 5px;
+    background-color: $text;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Poiret One', cursive;
+    color: black;
+    padding: 0.3rem;
+    margin-left: 13.2rem;
+}
+.sub:hover {
+    color: black;
+    border-radius: 20px;
+    padding: 0.3rem 1rem;
+    margin-left: 13.5rem;
+    text-shadow: 0 0 10px $text3,
+                 0 0 20px $text3,
+                 0 0 30px $text3,
+                 0 0 40px $text3;
+}
+// end of form
+
+// footer style
+.foot {
+    color: white;
+    background-color: rgba(128, 128, 128, 0.671);
+    box-shadow: 3px 3px 3px rgba(128, 128, 128, 0.562),
+                5px 5px 5px;
+    font-family: 'Poiret One', cursive;
+    font-size: 2.7rem;
+    margin-top:  2rem;
 }
 // end of style

@@ -7,20 +7,6 @@ body {
     padding: 0;
 }
 
-// homepage wrapper
-.wrapper {
-    width: 100%;
-    overflow-x: hidden;
-}
-
-// contact wrapper
-.wrapper2 h1 {
-    font-weight: bolder;
-    font-size: 4rem;
-    text-align: center;
-    font-family: 'Poiret One', cursive;
-}
-
 // paragraph
 p {
     font-size: 1.800rem;
@@ -29,29 +15,9 @@ p {
     text-align: center;
 }
 
-// gallery body
-.body2 h1 {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    font-family: 'Poiret One', cursive;
-}
-
-// contact body
-.body3 {
-    background-image: url(../images/adventure-beauty-blonde-hair-725255.jpg);
-    background-size: cover;
-}
-
 // nav bar
 nav {
     font-size: 2rem;
-}
-li:hover {
-    text-shadow: 0 0 10px $text3,
-                 0 0 20px $text3,
-                 0 0 30px $text3,
-                 0 0 40px $text3;
 }
 
 ul {
@@ -118,6 +84,7 @@ button {
 
 // hover over button
 button:hover {
+    text-align: center;
     color: black;
     border-radius: 20px;
     padding: 0.3rem 1rem;
@@ -127,8 +94,16 @@ button:hover {
                  0 0 30px $text3,
                  0 0 40px $text3;
 }
-// end of button style
 
+select {
+    color: $secondary-color;
+    text-decoration: none;
+    display: block;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0;
+    font-size: 1.1rem;
+}
+// end of button style
 // form 
 form {
     font-family: 'Poiret One', cursive;
@@ -143,72 +118,3 @@ form {
         padding: 3rem;
     }
 }
-.form-2 {
-    font-family: 'Poiret One', cursive;
-    color: black;
-    margin-right: 80rem;
-    font-size: 1.5rem;
-    font-weight: bold;
-    word-spacing: 8rem;
-
-}
-.form-3 {
-    font-family: 'Poiret One', cursive;
-    color: black;
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin: 0;
-    padding: 2px 0;
-    margin-right: 50rem;
-    align-self: left;
-}
-#surname {
-    margin-left: 2.2rem;
-}
-#email {
-    margin-left: 13.2rem;
-}
-#comment {
-    margin-left: 13.2rem;
-}
-// input
-input,
-#comment {
-    background-color: rgba(117, 117, 117, 0.205);
-    border: none;
-    border-bottom: 2px solid white;
-}
-// subcribe button
-.sub {
-    border-radius: 5px 5px 5px;
-    background-color: $text;
-    font-size: 1rem;
-    font-weight: bold;
-    font-family: 'Poiret One', cursive;
-    color: black;
-    padding: 0.3rem;
-    margin-left: 13.2rem;
-}
-.sub:hover {
-    color: black;
-    border-radius: 20px;
-    padding: 0.3rem 1rem;
-    margin-left: 13.5rem;
-    text-shadow: 0 0 10px $text3,
-                 0 0 20px $text3,
-                 0 0 30px $text3,
-                 0 0 40px $text3;
-}
-// end of form
-
-// footer style
-.foot {
-    color: white;
-    background-color: rgba(128, 128, 128, 0.671);
-    box-shadow: 3px 3px 3px rgba(128, 128, 128, 0.562),
-                5px 5px 5px;
-    font-family: 'Poiret One', cursive;
-    font-size: 2.7rem;
-    margin-top: 2rem;
-}
-// end of style
