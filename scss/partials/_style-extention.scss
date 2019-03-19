@@ -1,0 +1,296 @@
+// gallery body
+.body2 h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+}
+
+// homepage wrapper
+.wrapper {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+// contact wrapper
+.wrapper2 h1 {
+    font-weight: bolder;
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+}
+// first cape-town of homepage
+.cape-town {
+    padding-top: 10rem;
+}
+
+// arrow image
+.arrow {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    animation: move 2s ease infinite;
+}
+@keyframes move {
+    0% {
+        margin-top: 4rem;
+    }
+    50% {
+        margin-top: 0;
+    }
+    100% {
+        margin-top: 4rem;
+    }
+}
+li:hover,
+.dropbtn:hover,
+.home-3:hover {
+    text-shadow: 0 0 10px $text3,
+                 0 0 20px $text3,
+                 0 0 30px $text3,
+                 0 0 40px $text3;
+}
+
+.arrow-2 {
+    width: 4rem;
+    margin-left: 2rem; 
+}
+
+// dropdown element
+#activity {
+    color: $text;
+}
+
+.dropdown {
+    font-family: 'Poiret One', cursive;
+    color: $text;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.dropbtn {
+    font-size: 2rem;
+    border: none;
+    font-weight: bold;
+}
+  
+.dropdown {
+    display: inline-block;
+    padding: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+}
+
+.dropdown-content a {
+    color: $secondary-color;
+    text-decoration: none;
+    display: block;
+    margin: 0;
+    padding: 1rem;
+}
+
+// hover over dropdown
+.dropdown-content a:hover {
+    background-color: rgba(236, 75, 12, 0.753);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+// dropdown 2
+.dropdown-2 {
+    font-family: 'Poiret One', cursive;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.dropbtn-2 {
+    color: black;
+    font-size: 1.5rem;
+    border: none;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+  
+.dropdown-2 {
+    display: inline-block;
+    padding: 1;
+}
+
+// navbar jumplink style to go back to home page
+.home {
+    font-size: 3rem;
+    margin-left: 2rem;
+    padding: 1rem;
+}
+.home:hover {
+    color: $text3;
+    border-radius: 20px;
+    padding: 1rem;
+    margin-left: 3rem;
+    text-shadow: 0 0 10px $text3,
+                 0 0 20px $text3,
+                 0 0 30px $text3,
+                 0 0 40px $text3;
+}
+
+// heading style for contact page
+.let-be-adventurers {
+    color: white;
+    background-color: rgba(128, 128, 128, 0.671);
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.562),
+                -5px -5px 5px;
+    font-family: 'Poiret One', cursive;
+    font-size: 2.7rem;
+    padding: 0;
+    margin: 2rem 20rem;
+}
+
+.title-3 {
+    font-size: 2rem;
+    color: white;
+    background-color: rgba(71, 71, 71, 0.315);
+}
+.home-3 {
+    color: rgb(51, 50, 50);
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.home-2:hover {
+    color: $text2;
+    border-radius: 20px;
+    padding: 1rem;
+    margin-left: 3rem;
+    text-shadow: 0 0 10px $text3,
+                 0 0 20px $text3,
+                 0 0 30px $text3,
+                 0 0 40px $text3;
+}
+// end of style
+
+// gallery effect
+.pic1:hover,
+.pic2:hover,
+.pic3:hover,
+.pic4:hover,
+.pic5:hover,
+.pic6:hover,
+.pic7:hover,
+.pic8:hover,
+.pic9:hover,
+.pic10:hover,
+.pic11:hover,
+.pic12:hover,
+.pic13:hover,
+.pic14:hover,
+.pic15:hover,
+.pic16:hover,
+.pic17:hover,
+.pic18:hover,
+.pic19:hover,
+.pic20:hover,
+.pic21:hover,
+.pic22:hover,
+.pic23:hover,
+.pic24:hover {
+    height: 31rem;
+    width: auto;
+    transition: 1s ease-in-out;
+}
+.pic1,
+.pic2,
+.pic3,
+.pic4,
+.pic5,
+.pic6,
+.pic7,
+.pic8,
+.pic9,
+.pic10,
+.pic11,
+.pic12,
+.pic13,
+.pic14,
+.pic15,
+.pic16,
+.pic17,
+.pic18,
+.pic19,
+.pic20,
+.pic21,
+.pic22,
+.pic23,
+.pic24 {
+    transition: 1s ease-in-out;
+}
+// end of style
+
+// active style on nvabar
+.active,
+#active {
+    background-color: rgba(236, 75, 12, 0.541);
+    padding: 6px;
+    border-radius: 1rem;
+}
+#active-2 {
+    background-color: rgba(128, 128, 128, 0.863);
+    padding: 3px;
+    border-radius: 1rem;
+}
+.active:hover,
+#active:hover,
+#active-2:hover {
+    opacity: 0;
+}
+// end of style 
+// input
+input,
+#comment {
+    background-color: rgba(253, 253, 253, 0.794);
+    border: none;
+    border-bottom: 2px solid white;
+}
+// subcribe button
+.sub {
+    border-radius: 5px 5px 5px;
+    background-color: $text;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Poiret One', cursive;
+    color: black;
+    padding: 0.3rem;
+    margin: auto;
+}
+.sub:hover {
+    color: black;
+    border-radius: 20px;
+    padding: 0.3rem 1rem;
+    margin: auto;
+    text-shadow: 0 0 10px $text3,
+                 0 0 20px $text3,
+                 0 0 30px $text3,
+                 0 0 40px $text3;
+}
+// end of form
+
+// footer style
+.foot {
+    color: white;
+    background-color: rgba(128, 128, 128, 0.671);
+    box-shadow: 3px 3px 3px rgba(128, 128, 128, 0.562),
+                5px 5px 5px;
+    font-family: 'Poiret One', cursive;
+    font-size: 2.7rem;
+    margin-top:  2rem;
+}
+// end of style

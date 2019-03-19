@@ -47,7 +47,7 @@
 .title {
     grid-area: title;
 }
-.img-1 {
+.camp-img {
     grid-area: img-1;
     height: 25rem;
     background-image: url(../images/camping1.jpg);
@@ -65,7 +65,7 @@
     align-self: left;
 }
 
-.img-2 {
+.camp-img-2 {
     grid-area: img-2;
     height: 25rem;
     background-image: url(../images/camp-04-a.jpg);
@@ -81,13 +81,13 @@
     "img-3 box-1 box-1"
     "box-2 box-2 img-4";
 }
-.img-3 {
+.fish-img {
     grid-area: img-3;
     height: 30rem;
     background-image: url(../images/fishing3.jpg);
     background-size: 100% 100%;
 }
-.img-4 {
+.fish-img-2 {
     grid-area: img-4;
     height: 30rem;
     background-image: url(../images/Wanaka-Fly-Fishing.jpg);
@@ -104,13 +104,13 @@
     "box-2 box-2 img-6";
 }
 
-.img-5 {
+.hike-img {
     grid-area: img-5;
     height: 30rem;
     background-image: url(../images/hiking1.jpg);
     background-size: 100% 100%;
 }
-.img-6 {
+.hike-img-2 {
     grid-area: img-6;
     height: 30rem;
     background-image: url(../images/Hikings.jpg);
@@ -127,13 +127,13 @@
     "box-2 box-2 img-8";
 }
 
-.img-7 {
+.climb-img {
     grid-area: img-7;
     height: 30rem;
     background-image: url(../images/climbing3.png);
     background-size: 100% 100%;
 }
-.img-8 {
+.climb-img-2 {
     grid-area: img-8;
     height: 25rem;
     background-image: url(../images/climbings.jpg);
@@ -150,13 +150,13 @@
     "box-2 box-2 img-10";
 }
 
-.img-9 {
+.hunt-img {
     grid-area: img-9;
     height: 30rem;
     background-image: url(../images/hunt.jpg);
     background-size: 100% 100%;
 }
-.img-10 {
+.hunt-img-2 {
     grid-area: img-10;
     height: 40rem;
     background-image: url(../images/hunts.jpg);
@@ -172,13 +172,13 @@
     "box-2 box-2 img-12";
 }
 
-.img-11 {
+.canoe-img {
     grid-area: img-11;
     height: 30rem;
     background-image: url(../images/canoe-adventure.jpg);
     background-size: 100% 100%;
 }
-.img-12 {
+.canoe-img-2 {
     grid-area: img-12;
     height: 30rem;
     background-image: url(../images/kaskazi-kayaks.jpg);
@@ -186,3 +186,15 @@
 }
 
 // end of grid style of activities
+// contact form
+form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    margin: auto;
+    text-align: center;
+    width: 71.375rem;
+}
+.comments {
+    grid-column: 2 span;
+}
