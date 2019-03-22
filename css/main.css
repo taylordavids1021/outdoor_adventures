@@ -3,16 +3,13 @@ button {
   background-color: #5158bb;
   font-size: 1rem;
   font-weight: bold;
+  align-self: center;
+  justify-self: center;
   font-family: 'Poiret One', cursive;
   color: black;
-  padding: 0.3rem; }
+  padding: 0.3rem 1rem; }
 
 button:hover {
-  text-align: center;
-  color: black;
-  border-radius: 20px;
-  padding: 0.3rem 1rem;
-  margin-left: 2rem;
   text-shadow: 0 0 10px #091aff, 0 0 20px #091aff, 0 0 30px #091aff, 0 0 40px #091aff; }
 
 select {
@@ -367,9 +364,11 @@ input,
 
 .box-1 {
   grid-area: box-1;
-  text-align: center; }
+  text-align: center;
+  margin: auto; }
 
 .box-2 {
+  margin: auto;
   grid-area: box-2;
   text-align: center; }
 

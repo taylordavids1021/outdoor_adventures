@@ -48,10 +48,11 @@
 .box-1 {
     grid-area: box-1;
     text-align: center;
+    margin: auto;
 }
 
 .box-2 {
-    // padding: 2rem;
+    margin: auto;
     grid-area: box-2;
     text-align: center;
 }

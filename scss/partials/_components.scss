@@ -5,18 +5,16 @@ button {
     background-color: $text;
     font-size: 1rem;
     font-weight: bold;
+    align-self: center;
+    justify-self: center;
     font-family: 'Poiret One', cursive;
     color: black;
-    padding: 0.3rem;
+    padding: 0.3rem 1rem;
+
 }
 
 // hover over button
 button:hover {
-    text-align: center;
-    color: black;
-    border-radius: 20px;
-    padding: 0.3rem 1rem;
-    margin-left: 2rem;
     text-shadow: 0 0 10px $text3,
                  0 0 20px $text3,
                  0 0 30px $text3,
