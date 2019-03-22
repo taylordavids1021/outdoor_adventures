@@ -44,8 +44,8 @@ h1 {
 }
 // arrow image
 .arrow {
-    width: 15%;
-    height: 15%;
+    width: 20%;
+    height: 10%;
 }
 // paragraph
 p {
@@ -56,9 +56,6 @@ p {
     padding-top: 6rem;
 }
 // arrow image
-.arrow {
-    width: 1rem;
-}
 .arrow-2 {
     width: 4rem;
     margin-left: 2rem; 
@@ -298,16 +295,6 @@ h2 {
 // subcribe button
 .sub {
     border-radius: 2px 2px 2px;
-    margin-left: 6rem;
-}
-.sub:hover {
-    border-radius: 10px;
-    padding: 0.3rem 0;
-    margin-left: 10rem;
-    text-shadow: 0 0 5px $text3,
-                 0 0 10px $text3,
-                 0 0 20px $text3,
-                 0 0 30px $text3;
 }
 .dropbtn-2 {
     font-size: 1rem;
@@ -333,6 +320,11 @@ select {
 }
 #active-2 {
     padding: 2px;
+}
+form {
+    input {
+        width: 60%;
+    }
 }
 }
 

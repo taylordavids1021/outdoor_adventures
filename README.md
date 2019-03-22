@@ -46,7 +46,15 @@ Technologies and Tools Used:
 - Base folders added
 - Readme Created
 - Live Link Created
+- Created Home Page
+- Created dropdown for activities
+- Created Gallery Page
+- Masonary Gallery
+- Contact form
+- Responsive for Mobile
+- Responsive for Tablet
+- Responsive for Laptop 
 
 ## Contributors
 
-Designed by Taylor Davids - 2019©
+Designed by Taylor Davids © - 2019

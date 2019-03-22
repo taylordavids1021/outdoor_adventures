@@ -1,6 +1,6 @@
 button {
   border-radius: 5px 5px 5px;
-  background-color: #5158bb;
+  background-color: rgba(39, 112, 196, 0.644);
   font-size: 1rem;
   font-weight: bold;
   align-self: center;
@@ -39,7 +39,7 @@ body {
 p {
   font-size: 1.800rem;
   font-family: 'Playfair Display', serif;
-  color: #5158bb;
+  color: #4d4c4c;
   text-align: center; }
 
 nav {
@@ -53,7 +53,7 @@ li,
 a {
   font-family: 'Poiret One', cursive;
   margin-bottom: 5rem;
-  color: #5158bb;
+  color: #3c3cd8;
   text-decoration: none;
   margin-right: 2rem;
   display: inline;
@@ -87,6 +87,14 @@ section h1 {
 
 section a {
   color: black; }
+
+footer p {
+  padding: 1rem;
+  background-color: #4d4c4c;
+  color: #84C318; }
+
+input {
+  width: 20%; }
 
 .body2 h1 {
   margin: 0;
@@ -132,11 +140,11 @@ li:hover,
   margin-left: 2rem; }
 
 #activity {
-  color: #5158bb; }
+  color: #4d4c4c; }
 
 .dropdown {
   font-family: 'Poiret One', cursive;
-  color: #5158bb;
+  color: #4d4c4c;
   padding: 1rem;
   font-size: 2rem;
   font-weight: bolder; }
@@ -295,26 +303,19 @@ li:hover,
 
 input,
 #comment {
-  background-color: rgba(253, 253, 253, 0.794);
+  background-color: rgba(253, 253, 253, 0.418);
   border: none;
   border-bottom: 2px solid white; }
 
 .sub {
   border-radius: 5px 5px 5px;
-  background-color: #5158bb;
+  background-color: #4d4c4c;
   font-size: 1rem;
   font-weight: bold;
   font-family: 'Poiret One', cursive;
   color: black;
   padding: 0.3rem;
   margin: auto; }
-
-.sub:hover {
-  color: black;
-  border-radius: 20px;
-  padding: 0.3rem 1rem;
-  margin: auto;
-  text-shadow: 0 0 10px #091aff, 0 0 20px #091aff, 0 0 30px #091aff, 0 0 40px #091aff; }
 
 .foot {
   color: white;
@@ -470,12 +471,11 @@ input,
   background-size: 100% 100%; }
 
 form {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 1rem;
   margin: auto;
   text-align: center;
   width: 71.375rem; }
+  form p {
+    color: rgba(255, 255, 255, 0.74); }
 
 .comments {
   grid-column: 2 span; }
@@ -510,17 +510,14 @@ form {
     font-size: 2rem; }
 
   .arrow {
-    width: 15%;
-    height: 15%; }
+    width: 20%;
+    height: 10%; }
 
   p {
     font-size: 0.7rem; }
 
   .cape-town {
     padding-top: 6rem; }
-
-  .arrow {
-    width: 1rem; }
 
   .arrow-2 {
     width: 4rem;
@@ -695,14 +692,7 @@ form {
     width: 100%; }
 
   .sub {
-    border-radius: 2px 2px 2px;
-    margin-left: 6rem; }
-
-  .sub:hover {
-    border-radius: 10px;
-    padding: 0.3rem 0;
-    margin-left: 10rem;
-    text-shadow: 0 0 5px #091aff, 0 0 10px #091aff, 0 0 20px #091aff, 0 0 30px #091aff; }
+    border-radius: 2px 2px 2px; }
 
   .dropbtn-2 {
     font-size: 1rem;
@@ -725,7 +715,10 @@ form {
     padding: 4px; }
 
   #active-2 {
-    padding: 2px; } }
+    padding: 2px; }
+
+  form input {
+    width: 60%; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   main {
     background-size: cover; }

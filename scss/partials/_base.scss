@@ -29,7 +29,7 @@ li,
 a {
     font-family: 'Poiret One', cursive;
     margin-bottom: 5rem;
-    color: $text;
+    color: $link;
     text-decoration: none;
     margin-right: 2rem;
     display: inline;
@@ -72,4 +72,11 @@ section h1 {
 section a {
     color: black;
 }
-
+footer p {
+    padding: 1rem;
+    background-color: $text;
+    color: $text2;
+}
+input {
+    width: 20%;
+}

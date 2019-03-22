@@ -181,12 +181,13 @@
 // end of grid style of activities
 // contact form
 form {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 1rem;
     margin: auto;
     text-align: center;
     width: 71.375rem;
+
+    p {
+        color: $white;
+    }
 }
 .comments {
     grid-column: 2 span;
